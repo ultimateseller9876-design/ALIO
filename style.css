@@ -1,0 +1,36 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#1d0d09;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.card{
+width:min(420px,92vw);
+padding:28px;
+border-radius:20px;
+background:#31120d;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,.4);
+position:relative;
+}
+span{color:#ff6b2d;}
+.tag{background:#ff6b2d;display:inline-block;padding:8px 14px;border-radius:20px;font-weight:bold;}
+button{
+display:block;width:100%;margin:12px 0;padding:14px;
+border:none;border-radius:12px;font-size:16px;cursor:pointer;
+}
+#output{margin-top:20px;min-height:60px;padding:12px;background:#472019;border-radius:10px;}
+#bean{
+position:absolute;
+right:18px;
+bottom:18px;
+font-size:18px;
+opacity:.18;
+cursor:pointer;
+}
+#bean:hover{opacity:1;}
+footer{margin-top:20px;font-size:12px;color:#ccc;}
